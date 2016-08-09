@@ -1986,7 +1986,7 @@
 
 	.iconi {
 		text-decoration: none;
-		margin-right: 0.6em;
+		margin-right: 0.5em;
 	}
 
 		.iconi:before {
@@ -2030,7 +2030,7 @@
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 375px;
+		width: 275px !important;
 	}
 
 		#header .top {
@@ -2152,7 +2152,7 @@
 			}
 
 				#nav ul li a.active span:before {
-					color: #e27689;
+					color: #fff;
 				}
 
 /* Footer */
