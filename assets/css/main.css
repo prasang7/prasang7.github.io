@@ -1549,6 +1549,10 @@
 	}
 
 /* Basic */
+	
+	definer {
+
+	}
 
 	body {
 		background: #fff;
@@ -1641,7 +1645,6 @@
 	a {
 		text-decoration: none;
 		color: #000000;
-		border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
 		-moz-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-webkit-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-ms-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
@@ -1981,6 +1984,28 @@
 			display: none;
 		}
 
+	.iconi {
+		text-decoration: none;
+		margin-right: 0.6em;
+	}
+
+		.iconi:before {
+			display: inline-block;
+			font-family: FontAwesome;
+			font-size: 1.75em;
+			text-decoration: none;
+			font-style: normal;
+			font-weight: normal;
+			line-height: 1;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+		}
+
+		.iconi > .label {
+			display: none;
+		}
+
+
 /* Header */
 
 	#header {
@@ -2057,7 +2082,7 @@
 		cursor: default;
 	}
 
-		#logo h1 {
+		#logo h1{
 			position: relative;
 			color: #fff;
 			font-weight: 600;
@@ -2069,6 +2094,14 @@
 			position: relative;
 			display: block;
 			font-size: 0.6em;
+			color: rgba(255, 255, 255, 0.5);
+			line-height: 1.25em;
+			margin: 0.5em 0 0 0;
+		}
+
+		#logo a {
+			position: relative;
+			font-size: 1.0em;
 			color: rgba(255, 255, 255, 0.5);
 			line-height: 1.25em;
 			margin: 0.5em 0 0 0;
