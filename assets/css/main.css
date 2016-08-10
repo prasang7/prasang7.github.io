@@ -1545,7 +1545,6 @@
 		.\-1u\28mobile\29 {
 			margin-left: 8.33333%;
 		}
-
 	}
 
 /* Basic */
@@ -1593,7 +1592,20 @@
 		text-decoration: none;
 	}
 
-		
+	a.hypo {
+		font-size: 1em;
+		letter-spacing: -1px;
+		color: #000000;
+	}
+
+		a.hypo {
+			color: #000 !important;
+		}
+
+			a.hypo strong {
+				color: #-1;
+			}
+
 
 	h2 {
 		font-size: 2em;
