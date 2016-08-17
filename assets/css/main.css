@@ -1608,6 +1608,23 @@
 			}
 
 
+	a.simple {
+		font-size: 1.0em;
+		letter-spacing: -1px;
+		color: #000000;
+		font-weight: 300;
+	}
+
+		a.hypo {
+			color: #000 !important;
+		}
+
+			a.hypo strong {
+				color: #-1;
+			}
+
+
+
 	h2 {
 		font-size: 2em;
 		letter-spacing: -1px;
