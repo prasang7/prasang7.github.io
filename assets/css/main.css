@@ -1712,7 +1712,8 @@
 
 	p, ul, ol, dl, table {
 		margin-bottom: 2em;
-		color: #000000;
+		color: #404040;
+		font-size: 20px;
 	}
 
 	br.clear {
