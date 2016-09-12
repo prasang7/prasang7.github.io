@@ -1862,6 +1862,7 @@
 		form textarea:focus {
 			box-shadow: 0 0 2px 1px #8ebebc;
 			background: #fff;
+			color: #000000;
 		}
 
 	form input[type="text"],
@@ -1872,7 +1873,7 @@
 	}
 
 	form textarea {
-		min-height: 14em;
+		min-height: 10em;
 	}
 
 	form .formerize-placeholder {
