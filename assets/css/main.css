@@ -219,6 +219,8 @@
 
 	.row {
 		border-bottom: solid 1px transparent;
+		padding-left: 60px;
+		padding-right: 60px;
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
@@ -1980,8 +1982,9 @@
 /* Item */
 
 	.item {
-		box-shadow: 0 0.05em 0.45em 0 rgba(0, 0, 0, 0.45);
-		margin-bottom: 40px;
+		box-shadow: 0 0.05em 0.45em 0 rgba(0, 0, 0, 0.45);	
+		margin-right: 10px;
+		margin-left: 10px;
 	}
 
 		.item header {
