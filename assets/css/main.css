@@ -1989,7 +1989,6 @@
 	}
 
 		.item header {
-			margin: 0;
 			padding: 1em 1em 1em 1em;
 			font-size: 0.8em;
 			color: #FFFFFF;
@@ -2005,6 +2004,22 @@
 			font-style: bold;
 			font-weight: 800;
 			font-size: 1.1em;
+		}
+
+		#tags_container {
+			text-align: left;
+			margin-bottom: -8px;
+			margin-top: -1px;
+		}
+
+		#proj_tag {
+			font-size: 0.6em;
+			color: #000000;
+			font-weight: 600;
+			background-color: #FFFFFF;
+			border-radius: 0.2em;
+			padding: 0.5em 0.5em 0.5em 0.5em;
+			margin-right: 0.5em;
 		}
 
 /* Icons */
