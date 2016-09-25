@@ -142,9 +142,15 @@
 		font-style: italic;
 	}
 	
-	p, ul, ol, dl, table
+	p, ol, dl, table
 	{
 		margin-bottom: 2em;
+	}
+
+	ul {
+		margin-bottom: 2em;
+		margin-left: 2em;
+		margin-top: -1em;
 	}
 
 	br.clear
