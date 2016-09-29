@@ -3,7 +3,7 @@
 <html lang="en">
 	<head>
 		<title>Zaplan - PrasangSharma</title>
-		<link rel="shortcut icon" type="image/png" href="images/avatar.png"/>
+		<link rel="shortcut icon" type="image/png" href="projects-images/avatar.png"/>
 		
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,21 +23,32 @@
 	<header class="post-header">
 		<h2 class="post-title">Zaplan</h2>
 		<p class="post-type">ML Based Impromptu Day Trip Planer App</p>
-		<p class="post-date">Find Project on: <a href="">Github,</a> <a href="">Google PlayStore</a></p>
+		<p class="post-date">Team Size: 3, Find Project on: <a href="https://github.com/ZaPlan">Github</a></p>
 	</header>
 	<article class="post-content">
 
 	<h1 id="abstract">Abstract</h1>
-	<p>Zaplan is an impromptu day trip planner app for you, which learns form your previous experiences and recommends new restaurants and places using machine learning.</p>
+	<p>
+		Have you ever woken up some day, realized you have a day off, your friends are mostly busy and you have nothing to do? A lot of us live in cities we haven't fully explored yet. Ever been to that museum you've only heard of? How about a traditional lunch at the city center? And then maybe a visit to that park where a festival's in progress followed by dinner at popular street food stalls? or a movie maybe? Sounds fun right?
+		<br>
+		<br>
+		That's exactly what zaplan helps you come over (#struggles). It literally conjours up a day plan for you, on the spot and suggests you places to visit around the day. Zaplan is an impromptu day trip planner app for you, which learns form your previous experiences and recommends new restaurants and places using machine learning.</p>
 	
-	<h1 id="abstract">Solution and Impact</h1>
-	<p></p>
+	<h1 id="abstract">App Screenshots</h1>
+	<img class="image" src="projects-images/zaplan_screenshots.png" alt="Lo-Fi Prototype"/>
 
-	<h1 id="abstract">User Feedback</h1>
-	<p></p>
+	<h1 id="abstract">Solution</h1>
+
+	<h2 id="abstract">Android App's Infrastructure</h1>
+	<p>Zalan's android client comprises of 3 major activities: Login, User Input and Plan Display. Zaplan app follows material design guidelines, inflating a simple minimalisitic user interface. We've integrated Facebook SDK to implement login-via-facebook. We've also integrated Firebase SDK in app for the purpose of storing user data. Once user is successfully logged in, user details are stored in Firebase database. This database would be linked to our machine learning web APIs. For calling various APIs from app we use volley library. App fetches data from our APIs in JSON format, parses this raw data and inflates the UI of Plan-Display activity.</p>
+
+	<h2 id="abstract">Backend/Web-APIs and Machine Learning</h1>
+	<p>
+		Behind the scenes, Zaplan uses a custom API (built in Python, Flask RESTful) atop a mash of the Google Places API and Zomato API. The API uses an algorithm to figure out the best places nearby and sends data back as JSON. The user is presented this in a timeline format. As of now, we've implemented some Machine Learning techniques which helps us realize whether the user likes the restaurants or not (This large matrix is visible if you query the API).
+	</p>
 
 	<h1 id="link">Link</h1>
-	<p>Project URL: <a href="http://www.prasang7.github.io">http://www.prasang7.github.io</a></p>
+	<p>Project URL: <a href="https://github.com/ZaPlan">Zaplan - Github, </a><a href="http://zaplan-test.herokuapp.com/">Zaplan - HerokuAPI</a></p>
 
 	</article>
 
