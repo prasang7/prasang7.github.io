@@ -861,8 +861,10 @@
 	font-size: 14px;
 }
 
+/*********************       BODY SIZE CHANGE       **********************/
+
 .post {
-	max-width: 640px;
+	max-width: 840px;
 	margin:0 auto;
 	min-width: 380px;
 }
