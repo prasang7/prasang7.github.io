@@ -1727,6 +1727,25 @@
 		clear: both;
 	}
 
+
+	.WhiteButton {
+	    background-color: #ffffff; /* Green */
+	    border: 2px solid #000000;
+	    border-radius: 4px;
+	    color: black;
+	    font-size: 18px;
+	    padding: 5px 52px;
+	    text-align: center;
+	    text-decoration: none;
+	    display: inline-block;
+	}
+
+	.WhiteButton:hover {
+		background-color: #000000;
+		color: white;
+	}
+
+
 /* Sections/Article */
 
 	section, article {
