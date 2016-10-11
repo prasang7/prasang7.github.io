@@ -849,6 +849,7 @@
 .post-title {
 	font-size: 18px;
 	color: #1C1D1F;
+	font-family: "Lato", Helvetica;
 }
 
 .post-description {
@@ -942,7 +943,7 @@
 }
 
 .post-content p {
-	margin-bottom: 1.5em;
+	margin-bottom: 1.5em;;
 }
 
 .post-content ol {
