@@ -2034,8 +2034,8 @@
 
 	.item:hover h3{
 
-		/*Change Text Color*/
-		color: #E27689 !important;
+		/*Change Text Color
+		color: #E27689 !important;*/
 		border-bottom-color: rgba(255, 255, 255, 0) !important;
 		
 		/*Change Box Shadow*/
