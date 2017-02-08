@@ -7,7 +7,34 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="shortcut icon" type="image/png" href="images/avatar.png"/>
 	</head>
-	
+	<style>
+	.pra2 {
+		padding-left: 10px;
+		width: 44.25%;
+	}
+	.pra1 {
+		width: 44.25%;
+	}
+	.snd {
+		float: right; 
+		margin-right: 12%;
+	}
+	@media screen and (max-width: 736px) {
+		.pra1 {
+			width: 93%;
+			padding-left: 40px;
+		}
+
+		.pra2 {
+			width: 93%;
+			padding-left: 40px;
+		}
+		.snd {
+			float: right;
+			margin-right: 6%;
+		}
+	}
+	</style>
 	<body>
 		<!-- Header -->
 			<div id="header">
@@ -60,19 +87,29 @@
 
 				<!-- Intro -->
 					<section id="top" class="one dark cover">
-						<div class="container">
+						<div class="container" style="padding-bottom: 70px;">
 							<header>
 								<h3 class="alt">Hi there! I'm <strong>Prasang</strong>.</h3>
 								<p class="padding-bottom1">A 20 year old, UG student of Computer Science and Engineering at Vellore Institute of Technology. Turning ideas into <a class="hypo" href="https://play.google.com/store/apps/developer?id=prasang7" target="_blank">intuitive applications</a>, I create apps that fit into the Android ecosystem by following the android guidelines, while having unique branding. When not making android bots, you'll find me doodling around with <a class="hypo" href="https://www.behance.net/prasang7" target="_blank">design aesthetics</a>.<!--<br>I write <a class="hypo" href="https://github.com/prasang7" target="_blank">&lt;code/&gt;</a> and idiotic <a class="hypo" href="https://github.com/prasang7" target="_blank">/*comments*/</a> about things I see.-->
 								</p>
 							</header>
-							
-							
+						
+							<!-- Social Icons -->
+							<ul class="icons">
+								<li><a href="https://github.com/prasang7" target="_blank" class="iconi fa-github"><span class="label">Github</span></a></li>
+								<li><a href="https://play.google.com/store/apps/developer?id=prasang7" target="_blank" class="iconi fa-android"><span class="label">Play Store Apps Link</span></a></li>
+								<li><a href="https://www.behance.net/prasang7" target="_blank" class="iconi fa-behance"><span class="label">Behance</span></a></li>
+								<li><a href="https://in.linkedin.com/in/prasang7" target="_blank" class="iconi fa-linkedin"><span class="label">Linkedin</span></a></li>
+							</ul>
+						
+							<!--
 							<div>
 								<a href="https://github.com/prasang7" target="_blank"><div class="WhiteButton">Github</div></a>
 								<a href="files/Resume_PrasangSharma.pdf" target="_blank"><div class="WhiteButton">Resume</div></a>
 							</div>				
+							-->
 							
+
 						</div>
 					</section>
 			
@@ -178,20 +215,20 @@
 						<div class="container">
 							
 							<header>
-								<h4>Say hi or say boo! Hit me up on <em>prasang.sharma7@gmail.com</em></h4>
+								<h4 style="width: 90%; padding-bottom: 20px;">Say hi or say boo! Hit me up on <em>prasang.sharma7@gmail.com</em></h4>
 							</header>
 							
 							
 
 							<form method="POST" action="https://formspree.io/prasang.sharma7@gmail.com">
 								<div class="row">
-									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Your Name"/></div>
-									<div class="6u$ 12u$(mobile)"><input type="email" name="email" placeholder="Your Email" /></div>
-									<div class="12u$">
+									<div class="6u 12u$(mobile) pra1"><input type="text" name="name" placeholder="Your Name"/></div>
+									<div class="6u$ 12u$(mobile) pra2"><input type="email" name="email" placeholder="Your Email" /></div>
+									<div class="12u$" style="padding: 10px 0 0 0; width: 84%; margin-left: 40px;">
 										<textarea name="message" placeholder="Message"></textarea>
 									</div>
-									<div class="12u$">
-										<input type="submit" value="Send" class="WhiteButton"/>
+									<div class="12u$" style="padding-top: 10px;">
+										<input type="submit" value="Send" class="WhiteButton snd" />
 									</div>
 								</div>
 							</form>

@@ -1640,7 +1640,7 @@
 	}
 		h3.alt {
 			color: #000 !important;
-			padding-top: 100px;
+			padding-top: 150px;
 		}
 
 			h3.alt strong {
@@ -1648,7 +1648,7 @@
 			}
 
 	header {
-		margin: 0 0 2em 0;
+		margin: 0 0 2px 0;
 	}
 
 		header > p {
@@ -1840,7 +1840,7 @@
 
 	ul.icons {
 		cursor: default;
-	}
+	}	
 
 		ul.icons li {
 			display: inline-block;
@@ -2101,13 +2101,13 @@
 
 	.iconi {
 		text-decoration: none;
-		margin-right: 0.5em;
+		margin-right: 0.55em;
 	}
 
 		.iconi:before {
 			display: inline-block;
 			font-family: FontAwesome;
-			font-size: 1.75em;
+			font-size: 1.60em;
 			text-decoration: none;
 			font-style: normal;
 			font-weight: normal;
@@ -2183,11 +2183,31 @@
 				#header .icons a:hover {
 					color: #fff;
 				}
+		
+		#main .icons {
+			font-size: 1.2em;
+			text-align: center;
+			color: black;
+			margin-top: 20px;
+		}
+
+			#main .icons a {
+				color: #000000;
+				-moz-transition: color 0.35s ease-in-out;
+				-webkit-transition: color 0.35s ease-in-out;
+				-ms-transition: color 0.35s ease-in-out;
+				transition: color 0.35s ease-in-out;
+			}
+
+				#main .icons a:hover {
+					color: #000;
+				}
+
 
 
 		p.padding-bottom1 {
-			padding-bottom: 30px;
-			margin-bottom: 80px;
+			margin-top: 50px;
+			margin-bottom: 10px;
 		}		
 
 	#logo {
@@ -2329,12 +2349,14 @@
 				}
 
 				#main > section.dark a {
-					color: #fff;
+					color: #222;
 					border-color: inherit;
+					transition: all 0.3s ease-in-out;
 				}
 
 					#main > section.dark a:hover {
 						border-bottom-color: rgba(255, 255, 255, 0);
+						transform: scale(1.05, 1.05);
 					}
 
 			#main > section.cover {
@@ -2381,7 +2403,7 @@
 		/* Footer */
 
 			#footer {
-				margin-left: 300px;
+				margin-left: 275px;
 			}
 
 		/* Main */
@@ -2403,7 +2425,7 @@
 			}
 
 			#main section.cover {
-				padding: 5em 0;
+				padding: 10px 0 0 0;
 			}
 
 	}
@@ -2674,6 +2696,15 @@
 
 			body, input, textarea, select {
 				font-size: 14pt;
+			}
+
+			.pra1 {
+				width: 80%;
+			}
+
+			.pra2 {
+				width: 80%;
+				padding-left: 20px;
 			}
 
 			h2 {
